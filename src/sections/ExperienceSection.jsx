@@ -57,7 +57,7 @@ const ExperienceSection = () => {
     <section id="experience" className="w-full md:mt-40 mt-20 section-padding xl:px-0">
       <div className="w-full h-full md:px-20 px-5">
         <TitleHeader 
-        title="Professional Work Experience"
+        title="経歴"
         sub="🧳 My Career Overview" />
 
         <div className="mt-32 relative">
@@ -87,7 +87,7 @@ const ExperienceSection = () => {
                       <div>
                         <h1 className="font-semibold text-3xl">{card.title}</h1>
                         <p className="my-5 text-white-50">
-                          📅{card.date}
+                          📅 {card.date}
                         </p>
                         <p className="text-[#839CB5] italic">
                           Resposibilities
