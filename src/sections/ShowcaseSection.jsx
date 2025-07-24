@@ -49,7 +49,7 @@ useGSAP(() => {
         {/* LEFT */}
           <div className="first-project-wrapper" ref={project1Ref}>
             <div>
-              <img src="/images/project1.png" alt="Ryde" />
+              <img src="/images/project1.JPG" alt="Ryde" />
             </div>
             <div className="text-content">
               <h2>オンデマンドライドシェア。On-Demand RideShares Made Simple with Powerful.</h2>
@@ -63,7 +63,7 @@ useGSAP(() => {
         <div className="project-list-wrapper overflow-hidden">
           <div className="project" ref={project2Ref}>
             <div className="image-wrapper bg-[#FFEFDB]">
-              <img src="/images/project2.png" alt="Library Management Platform" />
+              <img src="/images/project2.JPG" alt="Library Management Platform" />
             </div>
             <h2>Library Management Platform</h2>
           </div>

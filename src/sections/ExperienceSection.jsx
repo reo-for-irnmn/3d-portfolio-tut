@@ -80,7 +80,7 @@ const ExperienceSection = () => {
                       <div className="gradient-line w-1 h-full" />
                     </div>
 
-                    <div className="expText flex xl:gap-20 md: gap-10 gap-5 relative z-20">
+                    <div className="expText flex xl:gap-20 md:gap-10 gap-5 relative z-20">
                       <div className="timeline-logo">
                         <img src={card.logoPath} alt="logo" />
                       </div>
