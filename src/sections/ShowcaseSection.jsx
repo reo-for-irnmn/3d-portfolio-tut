@@ -49,12 +49,13 @@ useGSAP(() => {
         {/* LEFT */}
           <div className="first-project-wrapper" ref={project1Ref}>
             <div>
-              <img src="/images/project1.JPG" alt="Ryde" />
+              <img src="/images/project1.JPG" alt="Gothic" />
             </div>
             <div className="text-content">
-              <h2>オンデマンドライドシェア。On-Demand RideShares Made Simple with Powerful.</h2>
+              <h2>中世ヨーロッパのゴシック建築風</h2>
               <p className="text-white-50 md:text-xl">
-                日本にもライドシェアがやってきた。
+                制作期間：1ヶ月<br />
+                制作ツール：Blender, Photoshop
               </p>
             </div>
           </div>
@@ -63,16 +64,28 @@ useGSAP(() => {
         <div className="project-list-wrapper overflow-hidden">
           <div className="project" ref={project2Ref}>
             <div className="image-wrapper bg-[#FFEFDB]">
-              <img src="/images/project2.JPG" alt="Library Management Platform" />
+              <img src="/images/project2.JPG" alt="Modern room" />
             </div>
-            <h2>Library Management Platform</h2>
+            <div className="text-content">
+              <h2>フォトリアルモダンルーム</h2>
+              <p className="text-white-50 md:text-xl">
+                  制作期間：2週間<br />
+                  制作ツール：Blender
+              </p>
+            </div>
           </div>
 
           <div className="project" ref={project3Ref}>
             <div className="image-wrapper bg-[#FFE7EB]">
-              <img src="/images/project3.png" alt="YC Derectory" />
+              <img src="/images/project3.JPG" alt="Macbook" />
             </div>
-            <h2>YC Derectory A Startup Showcase App</h2>
+            <div className="text-content">
+              <h2>M1 Macbook</h2>
+              <p className="text-white-50 md:text-xl">
+                  制作期間：1日<br />
+                  制作ツール：Blender
+              </p>
+            </div>
           </div>
 
         </div>
